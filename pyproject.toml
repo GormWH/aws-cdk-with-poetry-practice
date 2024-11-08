@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aws-cdk-with-poetry-practice"
+version = "0.1.0"
+description = ""
+authors = ["park <park@bitset.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aws-cdk-lib = "==2.165.0"
+constructs = "10.*"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "8.*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
